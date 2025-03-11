@@ -31,7 +31,7 @@ $advisor = $stmt->fetch();
 <body>
     <div class="dashboard-container">
         <h2>Chào mừng, <?php echo $user['name']; ?></h2>
-        <h3>Giảng viên hướng dẫn của bạn: <?php echo $advisor ? $advisor['name'] : 'Chưa có giảng viên hướng dẫn'; ?></h3>
+        <h3>Giảng viên hướng dẫn của bạn: <?php echo $advisor ? $advisor['name'] : 'Chưa có giảng viên chưa bao giờ hướng dẫn'; ?></h3>
         <a href="logout.php">Đăng xuất</a>
     </div>
 </body>
